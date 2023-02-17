@@ -18,7 +18,7 @@ img{
 }
 
 .home{
-    background: rgb(224,215,207);
+    background: url(img/ciment-texture_1194-5292.avif) repeat;
 } 
 
 header h1{
@@ -33,7 +33,8 @@ header h2{
     font-size: 70px;
     margin: 100px;
     margin-top: 5px;  
-}   
+}  
+
 
 header h1 a{
     font-family: "Faune-black", sans-serif;
@@ -55,16 +56,7 @@ header h1 a{
     grid-template-columns: 1fr 1fr;
     margin-bottom: 24px;
     
-
-    box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  width: 800px auto;
-  height: 400px auto;
-  border: 1px solid #000000;
-  border-top-right-radius: 80px;
-  
-    
+  border-top-right-radius: 80px;    
 }
 
 .projects a p {
@@ -99,6 +91,7 @@ margin-left: 60px;
     background: white  url(img/spirale.jpg) repeat-y;
     background-size: 50px auto;
     margin-bottom: 24px;
+    
    
     
 
@@ -140,9 +133,476 @@ margin-left: 60px;
   border: 1px solid #000000;  
 }
 
+.contact a p{
+    margin-left: 60px
+     
+}
+
+.résumé{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Chillax-Regular';
+    margin: 90px;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.résumé p{
+margin-left: 60px;
+}
+
+.résumé h2{
+    margin-left: 60px;
+    }
 
 
+.résumé h3{
+margin-left: 60px;
+}
 
+.catégories{
+    font-family: 'Chillax-Regular';
+    margin:90px;
+}
+
+.catégories h3{
+ margin-left: 60px;
+}
+
+.photosfichiernum1{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosmockups1{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosrough2{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosfichiernum2{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosmockups2{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosrough3{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosfichiernum3{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosmockups3{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosrough4{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosfichiernum4{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosmockups4{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosrough5{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosfichiernum5{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosmockups5{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosrough6{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosfichiernum6{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosmockups6{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosrough7{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosfichiernum7{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosmockups7{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosrough8{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosfichiernum8{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosmockups8{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosrough9{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
+
+.photosmockups9{
+    display: grid;
+    background: white  url(img/spirale.jpg) repeat-y;
+    background-size: 50px auto;
+    margin-bottom: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+    
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 800px auto;
+  height: 400px auto;
+  border: 1px solid #000000;    
+}
 
 .grid{
  display: grid;
